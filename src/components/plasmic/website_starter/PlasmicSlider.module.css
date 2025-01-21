@@ -1,0 +1,85 @@
+.ariaSlider:global(.__wab_instance) {
+  position: relative;
+  box-sizing: border-box;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  color: var(--token-fYYLleocNKxx);
+  font-family: var(--token-qnplZpFNUaAe);
+  font-size: var(--token-_fxUQQEDglNk);
+  line-height: var(--token-IBstRt9oN2Q9);
+  width: 100%;
+  row-gap: var(--token-Gcg4Y-ZSLXlo);
+}
+.ariaSlider[data-disabled]:global(.__wab_instance) {
+  opacity: 0.5;
+}
+.freeBox__uudaK {
+  display: flex;
+  flex-direction: row;
+}
+.freeBox__uudaK > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-left: calc(0px - var(--token-jcSqLfjtrGE0));
+  width: calc(100% + var(--token-jcSqLfjtrGE0));
+}
+.freeBox__uudaK > :global(.__wab_flex-container) > *,
+.freeBox__uudaK > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__uudaK > :global(.__wab_flex-container) > picture > img,
+.freeBox__uudaK
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: var(--token-jcSqLfjtrGE0);
+}
+.text__nnr9K {
+  position: relative;
+}
+.freeBox___67ITm {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding-top: var(--token-cY0i_nXsSyHo);
+  padding-bottom: var(--token-cY0i_nXsSyHo);
+  width: 100%;
+  min-width: 0;
+}
+.background {
+  display: flex;
+  background: var(--token-JE-o4ckEPmg8);
+  height: var(--token-jcSqLfjtrGE0);
+  width: 100%;
+  min-width: 0;
+  border-radius: 99px;
+}
+.ariaSliderTrack:global(.__wab_instance) {
+  cursor: pointer;
+  opacity: 1;
+  box-sizing: border-box;
+  background: none;
+  height: var(--token-jcSqLfjtrGE0);
+  width: 100%;
+  min-width: 0;
+}
+.ariaSlider[data-disabled] .ariaSliderTrack:global(.__wab_instance) {
+  cursor: not-allowed;
+}
+.sliderThumb__jjQ7:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+  margin-top: var(--token-jmIDIcd_BCLj);
+}
+.foreground {
+  display: block;
+  background: var(--token-UPcO78GLZEGx);
+  height: var(--token-jcSqLfjtrGE0);
+  border-radius: 99px 0rem 0rem 99px;
+}
+.description:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}

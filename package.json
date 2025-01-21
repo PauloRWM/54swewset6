@@ -1,0 +1,39 @@
+{
+  "name": "tmp-cpa",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@plasmicapp/cli": "^0.1.334",
+    "@plasmicapp/react-web": "^0.2.361",
+    "@plasmicpkgs/plasmic-query": "^0.0.227",
+    "@plasmicpkgs/react-aria": "^0.0.100",
+    "cra-template": "1.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
